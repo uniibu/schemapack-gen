@@ -1,0 +1,31 @@
+{
+  "name": "schemapack-gen",
+  "description": "A schemapack schema generator based on the passed value.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "publishConfig": {
+      "access": "public"
+  },
+  "dependencies": {
+    "@unibtc/traverse": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniibu/schemapack-gen.git"
+  },
+  "keywords": [
+    "schemapack",
+    "generator",
+    "schemapack-gen"
+  ],
+  "author": "Uni Sayo <unibtc@devpod.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uniibu/schemapack-gen/issues"
+  },
+  "homepage": "https://github.com/uniibu/schemapack-gen#readme"
+}
