@@ -22,13 +22,16 @@ function inRange(x, min, max) {
 }
 
 function isEmpty(val) {
+  if(typeof val === 'undefined' || val === null) {
+    return true;
+  }
   if(Array.isArray(val) && val.length) {
     return false;
   }
   if(Object.prototype.toString.call(val) === '[object Object]' && Object.keys(val).length) {
     return false;
   }
-  if(val.length) {
+  if(typeof val == 'string' && val.length) {
     return false;
   }
   return true;
