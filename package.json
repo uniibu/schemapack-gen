@@ -1,10 +1,10 @@
 {
   "name": "schemapack-gen",
   "description": "A schemapack schema generator based on the passed value.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "publishConfig": {
-      "access": "public"
+    "access": "public"
   },
   "dependencies": {
     "@unibtc/traverse": "^1.0.1"
